@@ -5,7 +5,7 @@ var NumArray = function(nums) {
     this.nums = nums
     this.sums = [0]
     for(let i = 0, len = nums.length; i < len; i++) {
-        sums[i+1] = sums[i] + nums[i]
+        this.sums[i+1] = this.sums[i] + nums[i]
     }
 };
 

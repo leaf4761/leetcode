@@ -28,7 +28,7 @@ var climbStairs1 = function(n) {
 
     function getN(n){
         let a = [[1, 1], [1, 0]], c = [[1,0], [0,1]]
-        let f0 = 1, f1 = 1, res
+        let res
         while(n) {
             if((n & 1) === 1) {
                 res = multiply(a, c)
